@@ -4,7 +4,7 @@
   "description": "Unit testing with Jest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "jest",
@@ -12,5 +12,11 @@
     "Testing"
   ],
   "author": "vikoss <vikoss.yiss@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  }
 }
