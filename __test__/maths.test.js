@@ -3,7 +3,7 @@ import {
   subtract,
   multiply,
   divide,
-} from './../maths';
+} from './../src/matchers';
 
 describe('Basic operations', () => {
   test('two plus two is four', () => {

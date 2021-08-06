@@ -10,6 +10,12 @@ const character = () => {
     .then(destructuredData)
 };
 
+const callbackMain = (callback) => callback('Hello');
+
 const destructuredData = ({ data }) => data;
 
-export { getDataFromAPI, character };
+export {
+  getDataFromAPI,
+  character,
+  callbackMain,
+};

@@ -1,4 +1,4 @@
-import { getDataFromAPI } from './../promise';
+import { getDataFromAPI } from './../src/asynchronous';
 
 
 describe('Promise test', () => {

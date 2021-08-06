@@ -1,5 +1,5 @@
-import { getCharacter } from './../snapshot';
-import { character } from './../promise'
+import { getCharacter } from './../src/snapshot';
+import { character } from './../src/asynchronous'
 
 describe('Snapshots', () => {
   test('Snapshot character', async () => {

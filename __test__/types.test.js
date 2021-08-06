@@ -3,7 +3,7 @@ import {
   isTrue,
   isFalse,
   isUndefined,
-} from './../maths';
+} from './../src/matchers';
 
 describe('Test null type', () => {
   test('Null', () => {

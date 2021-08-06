@@ -1,4 +1,4 @@
-import { colors } from './../maths';
+import { colors } from './../src/matchers';
 
 describe('Contain item in array', () => {
   test('Contain green', () => {

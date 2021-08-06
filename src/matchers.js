@@ -9,9 +9,6 @@ const isFalse = () => false;
 const isUndefined = () => undefined;
 
 const colors = () => ['red', 'blue', 'green'];
-const colors1 = () => ['red', 'blue', 'green'];
-
-const callbackMain = (callback) => callback('Hello');
 
 export {
   add,
@@ -23,6 +20,4 @@ export {
   isFalse,
   isUndefined,
   colors,
-  colors1,
-  callbackMain,
 };
