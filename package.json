@@ -4,7 +4,10 @@
   "description": "Unit testing with Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:update": "jest -u"
   },
   "keywords": [
     "jest",
@@ -18,5 +21,8 @@
     "@babel/preset-env": "^7.15.0",
     "babel-jest": "^27.0.6",
     "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
